@@ -1,6 +1,6 @@
-*****************************
-Homestead-Guide
-*****************************
+**********************************************************
+Guia de Documentacion Local de Ethereum
+**********************************************************
 |Gitter|
 
 .. |Gitter| image:: https://badges.gitter.im/ethereum/homestead-guide.svg
