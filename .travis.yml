@@ -13,3 +13,5 @@ script:
   - tox -e $TOX_ENV
 after_script:
   - cat .tox/$TOX_ENV/log/*.log
+dependencies:
+  - Sphinx >=1.5.1,<=1.5.6
