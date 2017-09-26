@@ -10,26 +10,26 @@ The Ethereum Homestead Guide is the reference documentation accompanying the Hom
 
 `Hosted on ReadTheDocs`_
 
-HOW YOU CAN HELP
+COMO PUEDES AYUDAR?
 ================================================================================
-**Homestead Documentation Initiative**
+**INICIATIVA DOCUMENTACION LOCAL DE ETHEREUM**
 
-It doesn't matter if you are a beginner or an expert, there are many ways to help.
+No importa si eres un principiante o un experto, existen diversas maneras en las que puedes ayudar.
 
-Write Content to the Guide
+Incluir contenido en esta guia:
 --------------------------------------------------------------------------------
-Help transfer and update content from the Ethereum Wiki, Ethereum Frontier Guide, the Ethereum Stack Exchange, or any other reputable source to relevant pages of the Homestead guide. Alternatively, write your own content for the guide based on experience.
+ayudanos a transferir, traducir y actualizar contenido de la pagina Wiki, de la guia Ethereum Frontier, del Stack Exchange de ethereum o de cualquier otra fuente que pueda proporcionar informacion relevante a esta guia. Alternativamente, puedes escribir tu propio contenido en base a tu propia experiencia.
 
-Make sure the documentation you are porting over is still accurate and follows our guidelines for the Homestead docs (https://ethereum-homestead.readthedocs.org/en/latest/about.html).
+Asegurate de que la informacion que proporcionas continua siendo exacta y cumple con nuestra guia de contenido ethereum-homestead.readthedocs.org/en/latest/about.html).
 
-Review What Has Been Written
+Revisa lo que ya fue publicado
 --------------------------------------------------------------------------------
-Have a look at our guide (https://ethereum-homestead.readthedocs.org/en/latest/) and give us feedback by visiting our Gitter Chatroom (https://gitter.im/ethereum/homestead-guide) or submit a pull request or issue to this repo. Too EZ.
+Hecha un vistaso a nuestra guia (https://ethereum-homestead.readthedocs.org/en/latest/) y retroalimentanos visitando nuestra pagina de gitter:(https://gitter.im/ethereum/homestead-guide) o crea un pull request o issue a este repositorio. Facil ¿No?.
 
-What's In It For Me?
+¿Y yo que gano?
 --------------------------------------------------------------------------------
-Your name will forever be immortalized, both in my heart and on the Contributors page in the guide.
-As a side effect, you may also get those good feels that you get when you help improve documentation :-)
+Tu nombre sera inmortalizado, tanto en nuestros corazones como en nuestra pagina de colaboradores.
+Como efecto secundario tambien puede que consigas tener ese sentimiento de satisfaccion que sientes cuando ayudas a la comunidad.
 
 GETTING STARTED
 ======================
