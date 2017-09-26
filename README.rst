@@ -108,4 +108,4 @@ Acerca de este repositorio
 
 Este repositorio es unicamente una traduccion del original que se puede encontrar en la siguiente pagina:
 
-.. _Hosted on ReadTheDocs: https://ethereum-homestead.readthedocs.org/en/latest/
+.. _Hostea on ReadTheDocs: https://ethereum-homestead.readthedocs.org/en/latest/
