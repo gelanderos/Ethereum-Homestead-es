@@ -3,7 +3,7 @@ Guia Homestead de Ethereum
 **********************************************************
 |Gitter|
 
-.. |Gitter| image:: https://gitter.im/Ethereum-Homestead-es/Lobby.svg
+.. |Gitter| image:: https://gitter.im/Ethereum-Homestead-es.svg
    :target: https://gitter.im/Ethereum-Homestead-es/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 
 La Guia Homestead de Ethereum es un sitio web con informacion de referencia acompañando la actualizacion denominada  "Homestead" de el proyecto Ethereum.
