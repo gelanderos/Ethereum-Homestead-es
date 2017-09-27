@@ -3,16 +3,16 @@ Guia Homestead de Ethereum
 **********************************************************
 |Gitter|
 
-.. |Gitter| image:: https://badges.gitter.im/Ethereum-Homestead-es/Ethereum-Homestead-es.svg
-   :target: https://gitter.im/Ethereum-Homestead-es?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+.. |Gitter| image:: https://gitter.im/Ethereum-Homestead-es/Lobby.svg
+   :target: https://gitter.im/Ethereum-Homestead-es/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 
-The Ethereum Homestead Guide is the reference documentation accompanying the Homestead release of the Ethereum project.
+La Guia Homestead de Ethereum es un sitio web con informacion de referencia acompañando la actualizacion denominada  "Homestead" de el proyecto Ethereum.
 
-`Hosted on ReadTheDocs`_
+`Almacenado en ReadTheDocs`_
 
 COMO PUEDES AYUDAR?
 ================================================================================
-**INICIATIVA DOCUMENTACION LOCAL DE ETHEREUM**
+**INICIATIVA GUIA HOMESTEAD DE ETHEREUM**
 
 No importa si eres un principiante o un experto, existen diversas maneras en las que puedes ayudar.
 
@@ -26,7 +26,7 @@ REVISA LO QUE YA FUE PUBLICADO
 --------------------------------------------------------------------------------
 Hecha un vistaso a nuestra guia (https://ethereum-homestead.readthedocs.org/en/latest/) y retroalimentanos visitando nuestra pagina de gitter:(https://gitter.im/ethereum/homestead-guide) o crea un pull request o issue a este repositorio. Facil ¿No?.
 
-¿Y TO QUE GANO?
+¿Y YO QUE GANO?
 --------------------------------------------------------------------------------
 Tu nombre sera inmortalizado, tanto en nuestros corazones como en nuestra pagina de colaboradores.
 Como efecto secundario tambien puede que consigas tener ese sentimiento de satisfaccion que sientes cuando ayudas a la comunidad.
@@ -53,11 +53,11 @@ Para usuarios de Windows:
 
 Obtener el Codigo Fuente
 --------------------------------------------------------------------------------
-* git clone: https://github.com/ethereum/homestead-guide.git
+* git clone: https://github.com/gelanderos/Ethereum-Homestead-es.git
 
 Compilar y ver el html
 --------------------------------------------------------------------------------
-* En una ventana de la terminal, ingresa al directorio en donde clonaste el repositorio Guia de Documentacion Local de Ethereum y digita los siguientes comandos:.
+* En una ventana de la terminal, ingresa al directorio en donde clonaste el repositorio Guia de Homestead de Ethereum y digita los siguientes comandos:.
 * ``make html``
 * ``cd build/html``
 * ``open index.html`` (abrir en el explorador)
@@ -69,10 +69,9 @@ Recursos
 
 **Documentacion**
 
-* Homestead Guide online: https://ethereum-homestead.readthedocs.org/en/latest/index.html
+* Guia Homestead en linea: https://ethereum-homestead.readthedocs.org/en/latest/index.html
 * Github: https://github.com/ethereum/homestead-guide
 * Gitter: https://gitter.im/ethereum/homestead-guide
-* Google doc: https://docs.google.com/document/d/1rVjrNgaDRAQdPp4rGqWrEk5fPgiHff0xsYGCyf06oM8/edit
 
 **Documentacion Original**
 
@@ -108,4 +107,4 @@ Acerca de este repositorio
 
 Este repositorio es unicamente una traduccion del original que se puede encontrar en la siguiente pagina:
 
-.. _Hosted on ReadTheDocs: http://ethereum-homestead-es.readthedocs.io/en/latest/
+.. _Almacenado en ReadTheDocs: http://ethereum-homestead-es.readthedocs.io/en/latest/
