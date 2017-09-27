@@ -1,10 +1,10 @@
 **********************************************************
-Guia de Documentacion Local de Ethereum
+Guia Homestead de Ethereum
 **********************************************************
 |Gitter|
 
-.. |Gitter| image:: https://badges.gitter.im/ethereum/homestead-guide.svg
-   :target: https://gitter.im/ethereum/homestead-guide?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+.. |Gitter| image:: https://badges.gitter.im/Ethereum-Homestead-es/Ethereum-Homestead-es.svg
+   :target: https://gitter.im/Ethereum-Homestead-es?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 
 The Ethereum Homestead Guide is the reference documentation accompanying the Homestead release of the Ethereum project.
 
@@ -108,4 +108,4 @@ Acerca de este repositorio
 
 Este repositorio es unicamente una traduccion del original que se puede encontrar en la siguiente pagina:
 
-.. _Hostea on ReadTheDocs: https://ethereum-homestead.readthedocs.org/en/latest/
+.. _Hosted on ReadTheDocs: http://ethereum-homestead-es.readthedocs.io/en/latest/
