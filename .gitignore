@@ -12,3 +12,7 @@ build
 # IntelliJ project files
 *.iml
 .idea
+
+# APPData
+.gem
+AppData
