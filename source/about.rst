@@ -8,7 +8,7 @@ Guia Homestead de Ethereum
 ===============================================================================
 Este proyecto es derivado del proyecto "Ethereum Homestead Documentation" que consiste por una parte en la traduccion de los documentos incluidos en dicho repositorio, sin embargo por otro lado se pretende la alimentacion de este nuevo repositorio con informacion totalmente nueva y en español.
 ***************************************
-Introduccion
+Introduccion a la Guia
 ***************************************
 
 Proposito y Audiencia
