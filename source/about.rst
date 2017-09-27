@@ -3,7 +3,7 @@ Guia Homestead de Ethereum
 ***************************************
 |Gitter|
 
-.. |Gitter| image:: https://gitter.im/Ethereum-Homestead-es/Lobby.svg
+.. |Gitter| image:: https://gitter.im/Ethereum-Homestead-es.svg
    :target: https://gitter.im/Ethereum-Homestead-es/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 ===============================================================================
 Este proyecto es derivado del proyecto "Ethereum Homestead Documentation" que consiste por una parte en la traduccion de los documentos incluidos en dicho repositorio, sin embargo por otro lado se pretende la alimentacion de este nuevo repositorio con informacion totalmente nueva y en español.
