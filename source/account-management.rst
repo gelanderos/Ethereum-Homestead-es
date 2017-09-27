@@ -4,17 +4,17 @@ Account Management
 
 .. _Accounts:
 
-Accounts
+Cuentas
 ================================================================================
 
-Accounts play a central role in Ethereum. There are two types of accounts: *externally owned accounts* (EOAs) and *contract accounts*. Here we focus on externally owned accounts, which will be referred to simply as *accounts*. Contract accounts will be referred to as *contracts* and are :ref:`discussed in detail in Contracts <Contracts>`. This generic notion of account subsuming both externally owned accounts and contracts is justified in that these entities are so called *state objects*. These entities have a state: accounts have balance and contracts have both balance and contract storage. The state of all accounts is the state of the Ethereum network which is updated with every block and which the network really needs to reach a consensus about.
-Accounts are essential for users to interact with the Ethereum blockchain via transactions.
+Las cuentas juegan un papel esencial en Ethereum. Existen dos tipos de cuentas: *cuentas de propietarios externos* (EOAs) y *cuentas contrato*. Aqui nos enfocaremos en las cuentras de propietarios externos a las que llamaremos simplemente *cuentas*. Las cuentas contrato seran llamadas * contratos* y se discuten a mayor detalle en el apartado :ref:`Contratos <Contracts>`. Esta nocion generica de las cuentas, en el cual son englobadas los dos tipos existentes, cuentas de propietarios externos y contratos, se justifica en el hecho de que cada una de ellas contiene variables de estado. En el caso de las cuentas, su estado es el balance y en el caso de los contratos su estado es tanto su balance como su almacenamiento interno. El estado de las cuentas es el estado de lared de Ethereum mismo que es actualizado con cada bloque respecto del cual la red forzosamente debe tener un consenso, esto significa que si en el proximo bloque se detalla una transaccion, el estado de la cuenta cambiara, incrementando de acuerdo al monto de la transaccion el balance de la cuenta.
+Las cuentas son esenciales para que los usuarios interactuen con la blockchain de Ethereum mediante transacciones.
 
-If we restrict Ethereum to only externally owned accounts and allow only transactions between them, we arrive at an "altcoin" system that is less powerful than bitcoin itself and can only be used to transfer ether.
+Si se restringiera el uso de Ethereum unicamente a cuentas de propietarios externos y unicamente se permitieran transacciones entre dichas cuentas, terminaria siendo un altcoin mas que ademas de todo seria menos poderoso que e bitcoin y unicamente podria ser usado para transferir ether.
 
-Accounts represent identities of external agents (e.g., human personas, mining nodes or automated agents). Accounts use public key cryptography to sign transaction so that the EVM can securely validate the identity of a transaction sender.
+ Las cuentas representan identidades de agentes externos (personas, nodos de mineo o agentes automatizados por ejemplo). Las cuentas utilizan criptografia de clave publica para firmar transacciones y que la Maquina Virtual de Ethereum pueda validar de manera segura la identidad de quien envia la transaccion.
 
-Keyfiles
+Archivos Keyfiles
 ================================================================================
 
 Every account is defined by a pair of keys, a private key and public key. Accounts are indexed by their *address* which is derived from the public key by taking the last 20 bytes. Every private key/address pair is encoded in a *keyfile*. Keyfiles are JSON text files which you can open and view in any text editor. The critical component of the keyfile, your account’s private key, is always encrypted, and it is encrypted with the password you enter when you create the account. Keyfiles are found in the ``keystore`` subdirectory of your Ethereum node’s data directory. Make sure you backup your keyfiles regularly! See the section :ref:`backup-and-restore-accounts` for more information.
