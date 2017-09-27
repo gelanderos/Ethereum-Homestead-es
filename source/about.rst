@@ -1,12 +1,17 @@
 ***************************************
-The Homestead Documentation Initiative
+introduccion
 ***************************************
 |Gitter|
 
-.. |Gitter| image:: img/homestead-guide.svg
-   :target: https://gitter.im/ethereum/homestead-guide?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
+.. |Gitter| image:: https://gitter.im/Ethereum-Homestead-es/Lobby.svg
+   :target: https://gitter.im/Ethereum-Homestead-es/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 
-Purpose and Audience
+Este proyecto es derivado del proyecto "Ethereum Homestead Documentation" que consiste por una parte en la traduccion de los documentos incluidos en dicho repositorio, sin embargo por otro lado se pretende la alimentacion de este nuevo repositorio con informacion totalmente nueva y en español.
+***************************************
+Guia Homestead de Ethereum
+***************************************
+
+Proposito y Audiencia
 ===============================================================================
 
 This guide should serve to be an entry level for all Ethereum users and developers.
