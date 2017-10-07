@@ -125,7 +125,7 @@ Esto muestra que no tienes ninguna cuenta. Tambien puedes crear cuentas desde la
   Repeat passphrase:
   "0xb2f69ddf70297958e582a0cc98bce43294f1007d"
 
-.. Nota:: Recuerda utilizar siempre una contraseña dificil y generada de manera aleatoria.
+.. note:: Recuerda utilizar siempre una contraseña dificil y generada de manera aleatoria.
 
 Y con esto acabamos de crear nuestra primer cuenta. Si intentamos listar las cuentas nuevamente podemos ver nuestra nueva cuenta:
 
