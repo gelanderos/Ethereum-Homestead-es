@@ -31,14 +31,14 @@ Por supuesto, tu nueva cuenta no contendra ningun Ether. Pero esta sera tuya y s
 
 Es seguro transferir el directorio completo o los archivos keyfile individuales entre nodos Ethereum.
 
-.. Advertencia:: Es importante mencionar que en caso de que añadas keyfiles a tu nodo de un nodo diferente, el orden de las cuentas puede cambiar. Por lo que debes asegurarte de no basarte en o modificar el indice en tus scripts o lineas de codigo.
+.. warning:: Es importante mencionar que en caso de que añadas keyfiles a tu nodo de un nodo diferente, el orden de las cuentas puede cambiar. Por lo que debes asegurarte de no basarte en o modificar el indice en tus scripts o lineas de codigo.
 
 .. _creating_an_account:
 
 Creando una cuenta
 ================================================================================
 
-.. Advertencia:: ** No olvides tus contraseñas y :ref:`respalda tus archivos keyfile <backup-and-restore-accounts>`.** Para poder enviar transacciones desde una cuenta, incluyendo el envio de ether, debes tener tanto tu keyfile como tu contraseña. Asi que asegurate de temer una copia de tu archivo keyfile y por ningun motivo olvides la contraseña de dicho keyfile. Aqui no hay ruta de escape, si pierdes ya sea la llave o la contraseña, y puedes dar por perdidos todos tus ether. Aqui no existe manera de recuperar tu contraseña, no hay una opcion de *recupera tu contraseña*. No la olvides!
+.. warning:: ** No olvides tus contraseñas y :ref:`respalda tus archivos keyfile <backup-and-restore-accounts>`.** Para poder enviar transacciones desde una cuenta, incluyendo el envio de ether, debes tener tanto tu keyfile como tu contraseña. Asi que asegurate de temer una copia de tu archivo keyfile y por ningun motivo olvides la contraseña de dicho keyfile. Aqui no hay ruta de escape, si pierdes ya sea la llave o la contraseña, y puedes dar por perdidos todos tus ether. Aqui no existe manera de recuperar tu contraseña, no hay una opcion de *recupera tu contraseña*. No la olvides!
 
 Usando ``geth account new``
 --------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ Para un uso no interactivo, tambien puedes establecer la contraseña mediante el
 
   $ geth --password /direccion/a/tu/contraseña account new
 
-..  Advertencia:: Solo se recomienda utilizar el comando ``--password`` para realizar pruebas o automatizacion en ambientes confiables y seguros. Es una muy mala idea guardar tu contraseña en un archivo o exhibirla en cualquier otro medio. Si utilizas el comando ``--password`` con un archivo de texto, Asegurate de que el archivo no es legible o disponible para nadie mas que tu. Puedes hacer esto en sistemas Mac/Linux con:
+..  warning:: Solo se recomienda utilizar el comando ``--password`` para realizar pruebas o automatizacion en ambientes confiables y seguros. Es una muy mala idea guardar tu contraseña en un archivo o exhibirla en cualquier otro medio. Si utilizas el comando ``--password`` con un archivo de texto, Asegurate de que el archivo no es legible o disponible para nadie mas que tu. Puedes hacer esto en sistemas Mac/Linux con:
 
 .. code-block:: Bash
 
