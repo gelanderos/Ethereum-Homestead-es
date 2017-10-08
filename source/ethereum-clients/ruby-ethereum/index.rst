@@ -15,6 +15,5 @@ Links:
 
 Related:
 
-* `ruby-serpent <https://github.com/janx/ruby-serpent>`_:  Ruby binding to the `Ethereum Serpent <https://github.com/ethereum/wiki/wiki/Serpent>`_ compiler. 
+* `ruby-serpent <https://github.com/janx/ruby-serpent>`_:  Ruby binding to the `Ethereum Serpent <https://github.com/ethereum/wiki/wiki/Serpent>`_ compiler.
 * :ref:`ethereum-ruby`: a pure-Ruby JSON-RPC wrapper for communicating with an Ethereum node.
-

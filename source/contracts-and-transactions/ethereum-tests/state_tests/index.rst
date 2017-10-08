@@ -1,7 +1,7 @@
 .. _state_tests:
 
 ################################################################################
-State Tests
+Tests de Estado
 ################################################################################
 
 Found in ``/StateTest``, the state tests aim is to test the basic workings of the state in isolation.
@@ -43,11 +43,11 @@ Sections
 
 * **The** ``env`` **section:**
 
-| ``currentCoinbase``	
+| ``currentCoinbase``
 |	The current block's coinbase address, to be returned by the `COINBASE` instruction.
 | ``currentDifficulty``
 |	The current block's difficulty, to be returned by the `DIFFICULTY` instruction.
-| ``currentGasLimit``	
+| ``currentGasLimit``
 |	The current block's gas limit.
 | ``currentNumber``
 |	The current block's number. Also indicates network rules for the transaction. Since blocknumber = **1000000** Homestead rules are applied to transaction. (see https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki)
@@ -59,11 +59,11 @@ Sections
 
 * **The** ``transaction`` **section:**
 
-| ``data`` 
+| ``data``
 |	The input data passed to the execution, as used by the `CALLDATA`... instructions. Given as an array of byte values. See $DATA_ARRAY.
-| ``gasLimit`` 
+| ``gasLimit``
 |	The total amount of gas available for the execution, as would be returned by the `GAS` instruction were it be executed first.
-| ``gasPrice`` 
+| ``gasPrice``
 |	The price of gas for the transaction, as used by the `GASPRICE` instruction.
 | ``nonce``
 |	Scalar value equal to the number of transactions sent by the sender.
@@ -73,9 +73,9 @@ Sections
 |	The secret key as can be derived by the v,r,s values if the transaction.
 | ``to``
 |	The address of the transaction's recipient, to be returned by the `ORIGIN` instruction.
-| ``value`` 
+| ``value``
 |	The value of the transaction (or the endowment of the create), to be returned by the `CALLVALUE`` instruction (if executed first, before any `CALL`).
-| 
+|
 
 * **The** ``pre`` **and** ``post`` **sections each have the same format of a mapping between addresses and accounts. Each account has the format:**
 
@@ -93,7 +93,7 @@ Sections
 | Each logentry has the format:
 | ``address`` The address of the logentry.
 | ``data``	The data of the logentry.
-| ``topics`` The topics of the logentry, given as an array of values.  
+| ``topics`` The topics of the logentry, given as an array of values.
 |
 
 Finally, there is one simple key ``output``
@@ -102,16 +102,16 @@ Finally, there is one simple key ``output``
 | The data, given as an array of bytes, returned from the execution (using the ``RETURN`` instruction). See $DATA_ARRAY. In order to avoid big data files, there is one exception. If the output data is prefixed with ``#``, the following number represents the size of the output, and not the output directly.
 |
 
- **$DATA_ARRAY** - type that intended to contain raw byte data   
-  and for convenient of the users is populated with three   
-  types of numbers, all of them should be converted and   
-  concatenated to a byte array for VM execution.   
-  
-  The types are: 
- 
+ **$DATA_ARRAY** - type that intended to contain raw byte data
+  and for convenient of the users is populated with three
+  types of numbers, all of them should be converted and
+  concatenated to a byte array for VM execution.
+
+  The types are:
+
   1. number - (unsigned 64bit)
   2. "longnumber" - (any long number)
   3. "0xhex_num"  - (hex format number)
 
 
-   e.g: ``````[1, 2, 10000, "0xabc345dFF", "199999999999999999999999999999999999999"]``````			 
+   e.g: ``````[1, 2, 10000, "0xabc345dFF", "199999999999999999999999999999999999999"]``````

@@ -1,7 +1,7 @@
 .. _difficulty_tests:
 
 ################################################################################
-Difficulty Tests
+Tests de Dificultad
 ################################################################################
 
 Found in ``\Basic Tests\difficulty*.json`` files. This tests are designed to just check the difficulty formula of a block.
@@ -10,7 +10,7 @@ difficulty = DIFFICULTY(currentBlockNumber, currentTimestamp, parentTimestamp, p
 
 described at [EIP2](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-2.mediawiki) point 4 with homestead changes.
 
-So basically this .json tests are just to check how this function is calculated on different function parameters (parentDifficulty, currentNumber) in its extremum points. 
+So basically this .json tests are just to check how this function is calculated on different function parameters (parentDifficulty, currentNumber) in its extremum points.
 
 There are several test files:
 

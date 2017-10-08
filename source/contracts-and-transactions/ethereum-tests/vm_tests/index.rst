@@ -1,7 +1,7 @@
 .. _vm_tests:
 
 ################################################################################
-VM Tests
+Tests de la Maquina Virtual
 ################################################################################
 
 Found in ``/VMTest``, the VM tests aim is to test the basic workings of the VM in isolation. This is specifically not meant to cover transaction, creation or call processing, or management of the state trie. Indeed at least one implementation tests the VM without calling into any Trie code at all.
@@ -86,22 +86,22 @@ The ``logs`` sections is a mapping between the blooms and their corresponding lo
 
 * ``address``: The address of the logentry.
 * ``data``: The data of the logentry.
-* ``topics``: The topics of the logentry, given as an array of values.  
+* ``topics``: The topics of the logentry, given as an array of values.
 
 Finally, there are two simple keys, ``gas`` and ``output``:
 
 * ``gas``: The amount of gas remaining after execution.
 * ``output``: The data, given as an array of bytes, returned from the execution (using the ``RETURN`` instruction). See $DATA_ARRAY.
 
- **$DATA_ARRAY** - type that intended to contain raw byte data   
-  and for convenient of the users is populated with three   
-  types of numbers, all of them should be converted and   
-  concatenated to a byte array for VM execution.   
+ **$DATA_ARRAY** - type that intended to contain raw byte data
+  and for convenient of the users is populated with three
+  types of numbers, all of them should be converted and
+  concatenated to a byte array for VM execution.
 
-* The types are:    
+* The types are:
   1. number - (unsigned 64bit)
   2. "longnumber" - (any long number)
   3. "0xhex_num"  - (hex format number)
 
 
-   e.g: ``````[1, 2, 10000, "0xabc345dFF", "199999999999999999999999999999999999999"]``````			 
+   e.g: ``````[1, 2, 10000, "0xabc345dFF", "199999999999999999999999999999999999999"]``````

@@ -140,15 +140,15 @@ Y con esto acabamos de crear nuestra primer cuenta. Si intentamos listar las cue
 Usando la cartera de Ethereum Mist
 --------------------------------------------------------------------------------
 
-For the command line averse, there is now a GUI-based option for creating accounts: The “official” Mist Ethereum wallet. The Mist Ethereum wallet, and its parent Mist project, are being developed under the auspices of the Ethereum Foundation, hence the “official” status. Versions of the wallet app are available for Linux, Mac OS X, and Windows.
+Como alternativa a la linea de comandos, ahora existe una opcion para crear cuentras a traves de una interfaz grafica: La cartera “oficial” Mist de Ethereum. La cartera mist de Ethereum, y su proyecto pradre Mist, estan siendo desarrollados bajo los auspicios de la Fundacion Ethereum, por eso el estatus de “Oficial”. Existen versiones de de la cartera para Linux, Mac OS X, y Windows.
 
-.. Warning:: The Mist wallet is beta software. Please beware and use it at your own risk.
+.. Warning:: La cartera Mist es software "beta"(En estado de pruebas). Porfavor se consiente de que si la utilizas es bajo tu propio riesgo.
 
-Creating an account using the GUI Mist Ethereum wallet couldn’t be easier. In fact, your first account is created during the installation of the app.
+Crear una cuenta utilizando la interfaz grafica de Mist no podria ser mas sencillo. De hecho, tu primera cuenta se crea durante la instalacion de la aplicacion.
 
-1. `Download the latest version of the wallet app <https://github.com/ethereum/mist/releases>`_  for your operating system. Opening the Wallet App will kick off syncing a full copy of the Ethereum blockchain on your computer, since you will in effect be running a full geth node.
+1. `Descarga la ultima version de la aplicacion para tu sistema operativo de la siguiente liga:<https://github.com/ethereum/mist/releases>`_. Al abrir la aplicacion Mist iniciara con la sincronizacion de una copia completa de la blockchain de Ethereum en tu computadora, ya que estaras corriendo un nodo completo de geth Ethereum.
 
-2. Unzip the downloaded folder and run the Ethereum-Wallet executable file.
+2. Descomprime el archivo descargado y ejecuta el ejecutable de la cartera de Ethereum.
 
 .. image:: img/51Downloading.png
    :width: 582px
@@ -157,9 +157,9 @@ Creating an account using the GUI Mist Ethereum wallet couldn’t be easier. In 
    :alt: downloading-mist
    :align: center
 
-3. Wait for the blockchain to fully sync, then follow the instructions on the screen and your first account will be created.
+3. Espera a que se sincronice por completo la blockchain, y posteriormente sigue las instrucciones en la pantalla, y tu primer cuenta sera creada.
 
-4. When you launch the Mist Ethereum wallet for the first time, you will see the account you created during the installation process. By default it will be named MAIN ACCOUNT (ETHERBASE).
+4. Cuando ejecutes la cartera de ethereum por primera vez, podras ver la cuenta que creaste durante la instalacion. La cual por defecto tendra el nombre MAIN ACCOUNT (ETHERBASE).
 
 .. image:: img/51OpeningScreen.png
    :width: 1024px
@@ -168,17 +168,17 @@ Creating an account using the GUI Mist Ethereum wallet couldn’t be easier. In 
    :alt: opening-screen
    :align: center
 
-5. Creating additional accounts is easy; just click on ADD ACCOUNT in the app’s main screen and enter the required password.
+5. Crear una cuenta adicional es facil; Solo da click en el boton de ADD ACCOUNT en la pantalla principal de la aplicacion e ingresa la contraseña que se te requiere.
 
-.. Note:: The Mist wallet is still in active development, so details of the steps outlined above may change with upgrades.
+.. Note:: Tal como se te menciono con anterioridad, la cartera Mist sigue en continuo desarrollo, asi que los detalles mencionados con anterioridad pueden cambiar con las actualizaciones.
 
 
-Creating a Multi-Signature Wallet in Mist
+Creando una cartera multifirma en Mist
 --------------------------------------------------------------------------------
 
-The Mist Ethereum wallet has an option to secure your wallet balance with a multisig wallet. The advantage of using a multisig wallet is that it requires authorization from more than one account to withdrawal larger amounts from your balance. Before you can create a multisig wallet, you'll need to create more than one account.
+La cartera Mist de Ethereum tiene una opcion para asegurar los recursos de tus cuentas con una cartera multifirma o "multisig". La ventaja de utilizar una cartera multifirma es que esta requiere de autorizacion por parte de mas de una cuenta para extraer cantidades mayores de tu cartera. Antes de crear una cartera multifirma, necesitas tener creada mas de una cuenta.
 
-It's very easy to create account files in Mist. In the 'Accounts' section click 'Add Account'. Pick a strong yet easy-to-remember password (remember there is no password recovery option), confirm it, and your account is created. Create at least 2 accounts. Secondary accounts can be created on separate computers running Mist if you prefer (and theoretically make your multisig more secure doing it this way). You only need the public keys (your deposit addresses) of your secondary accounts when creating the multisig wallet (copy/paste them, do not ever type them by hand). Your primary account will be needed to create the multisig wallet contract, so it must be on the computer you are creating the multisig wallet on.
+Es muy sencillo crear cuentas en Mist, tan sencillo como daar click en el la seccion "Accounts" y posteriormente en "Add Account" en la interfaz grafica. En el apartado "Accounts" da click en el boton "Add Account". Elige una contraseña dificil para algun extraño pero facil de recordad (Recuerda que aqui no hay manera de recuperarla), confirmala y, tu cuenta ha sido creada. Crea por lo menos 2 cuentas. La cuenta secundaria puede ser creada en una computadora diferente que tambien ejecute Mist si eso prefieres(Haciendo teoricamente mas segura tu cartera multifirma). Unicamente necesitas las llaves publicas (osea la direccion) de tu segunda cuenta mientras creas la cartera multillave (copialas y pegalas, nunca, nunca, nunca las digites tu). Tu cuenta principal sera necesaria para crear el contrato de la cartera multifirma, asi que esta debe estar en la misma computadora en la que intentas crear la multifirma.
 
 Now that you have your accounts setup, be safe and back them up (if your computer crashes, you will lose your balance if you do not have a backup). Click 'Backup' in the top menu. Choose the 'keystore' folder, opposite-click on it / choose 'copy' (do NOT choose 'cut', that would be very bad). Navigate to your desktop, opposite-click in a blank area and choose 'paste'. You may want to rename this new copy of the 'keystore' folder to something like 'Ethereum-keystore-backup-year-month-day' so you have quick recognition of it later. At this point you can then add the folder contents to a zip / rar file (and even password-protect the archive with another strong yet easy-to-remember password if backing up online), copy it to a USB Drive, burn it to a CD / DVD, or upload it to online storage (Dropbox / Google Drive / etc).
 

@@ -1,7 +1,7 @@
 .. _transaction_tests:
 
 ################################################################################
-Transaction Tests
+Tests de Transacciones
 ################################################################################
 
 Describes a complete transaction and its `RLP <https://github.com/ethereum/wiki/wiki/RLP>`_ representation using the .json file.
