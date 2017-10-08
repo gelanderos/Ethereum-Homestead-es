@@ -31,7 +31,8 @@ Por supuesto, tu nueva cuenta no contendra ningun Ether. Pero esta sera tuya y s
 
 Es seguro transferir el directorio completo o los archivos keyfile individuales entre nodos Ethereum.
 
-.. warning:: Es importante mencionar que en caso de que añadas keyfiles a tu nodo de un nodo diferente, el orden de las cuentas puede cambiar. Por lo que debes asegurarte de no basarte en o modificar el indice en tus scripts o lineas de codigo.
+.. admonition:: Advertencia
+Es importante mencionar que en caso de que añadas keyfiles a tu nodo de un nodo diferente, el orden de las cuentas puede cambiar. Por lo que debes asegurarte de no basarte en o modificar el indice en tus scripts o lineas de codigo.
 
 .. _creating_an_account:
 
